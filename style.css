@@ -1,12 +1,12 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 
 :root {
-  --primaryColor: #fff;
-  --navColor1: #21292c;
-  --navColor2: #aa3e39;
-  --navColor3: #aa6e39;
-  --navColor4: #236267;
-  --navColor5: #2c8437;
+  --primaryColor: #f0ffff;
+  --navColor1: #1a1110;
+  --navColor2: #8b0000;
+  --navColor3: #e25822;
+  --navColor4: #002147;
+  --navColor5: #123524;
 }
 
 html {
@@ -15,8 +15,9 @@ html {
 
 body {
   margin: 0;
-  background: #000;
-
+  background: #1a1110;
+  font-family: "Varela Round",
+    sans-serif;
 }
 
 /* --- Navigation Menu ------------------------------ */
@@ -39,7 +40,7 @@ body {
 .bar3 {
   width: 35px;
   height: 2px;
-  background-color: #fff;
+  background-color: #f0ffff;
   margin: 8px 0;
   transition: 0.4s;
 }
